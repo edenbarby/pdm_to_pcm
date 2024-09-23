@@ -1,0 +1,9 @@
+Diagnostics:
+  ClangTidy:
+    Add: "*"
+    Remove:
+      - "llvmlibc-*"
+      - "fuchsia-*"
+      - "altera-*"
+      - "bugprone-easily-swappable-parameters"
+      - "readability-identifier-length"
